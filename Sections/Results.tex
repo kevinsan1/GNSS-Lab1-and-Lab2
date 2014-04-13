@@ -2,7 +2,22 @@
 \label{sec:results}
 
 Present results from all steps you performed in the exercise. Images or tabular results should be included in this section. Describe and analyse the results and discuss the meaning and implications of the results. Answer the questions written in the lab instructions. Pay attention to the quality of input data and their significance for interpreting the reliability of results/conclusions.
-
-
+The results for the receiver position are given in Table~\ref{tab:receiverCoordinates}.  The results agree completely with the reference material given because both calculations used all of the satellites available.
+\begin{table}[h]
+	\begin{center}
+		\begin{tabular}{llr}
+		\toprule
+		\multicolumn{2}{c}{epoch 2004 2 2 1 14 0.0} \\
+		\midrule
+			$X = 3104225.071~\text{m}$	& $mX =$$   1.330~\text{m}$		\\
+			$Y = 998384.754~\text{m}$	& $mY =   1.101~\text{m}$		\\
+			$Z = 5463300.077~\text{m}$	& $mZ =   2.566~\text{m}$		\\
+			$T = -0.0005198825~\text{s}$ 	& $mt = 4.7543792389\text{e}-09~\text{s}$		\\
+		\bottomrule
+		\end{tabular}
+	\end{center}
+	\caption{Coordinates of the receiver after several iterations of steps 11-16 until the convergence condition was met.}
+	\label{tab:receiverCoordinates}
+\end{table}
 
 % section results (end)

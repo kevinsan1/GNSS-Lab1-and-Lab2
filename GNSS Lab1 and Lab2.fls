@@ -137,18 +137,21 @@ INPUT Sections/Methodology.tex
 INPUT Sections/Methodology.tex
 INPUT Sections/Results.tex
 INPUT Sections/Results.tex
-INPUT Sections/AnalysisAndDiscussion.tex
-INPUT Sections/AnalysisAndDiscussion.tex
-INPUT /usr/local/texlive/2013/texmf-dist/tex/latex/base/omscmr.fd
-INPUT /usr/local/texlive/2013/texmf-dist/tex/latex/base/omscmr.fd
+INPUT /usr/local/texlive/2013/texmf-dist/fonts/tfm/public/cm/cmmi10.tfm
 INPUT /usr/local/texlive/2013/texmf-dist/fonts/tfm/public/cm/cmsy10.tfm
+INPUT /usr/local/texlive/2013/texmf-dist/fonts/tfm/public/cm/cmex10.tfm
+INPUT Sections/AnalysisAndDiscussion.tex
+INPUT Sections/AnalysisAndDiscussion.tex
+INPUT /usr/local/texlive/2013/texmf-dist/tex/latex/base/omscmr.fd
+INPUT /usr/local/texlive/2013/texmf-dist/tex/latex/base/omscmr.fd
+INPUT /usr/local/texlive/2013/texmf-var/fonts/map/pdftex/updmap/pdftex.map
 INPUT Sections/Lab1.tex
 INPUT Sections/Lab1.tex
 INPUT /usr/local/texlive/2013/texmf-dist/fonts/tfm/public/cm/cmbx12.tfm
-INPUT /usr/local/texlive/2013/texmf-var/fonts/map/pdftex/updmap/pdftex.map
 INPUT /usr/local/texlive/2013/texmf-dist/fonts/tfm/public/cm/cmtt10.tfm
 INPUT Sections/satLandP.tex
 INPUT Sections/satLandP.tex
+INPUT /usr/local/texlive/2013/texmf-dist/fonts/tfm/public/cm/cmbx10.tfm
 INPUT Sections/seconds_in_week.tex
 INPUT Sections/seconds_in_week.tex
 INPUT Sections/fixTk.tex
@@ -160,6 +163,7 @@ INPUT GNSS Lab1 and Lab2.bbl
 INPUT GNSS Lab1 and Lab2.aux
 INPUT ./GNSS Lab1 and Lab2.out
 INPUT ./GNSS Lab1 and Lab2.out
+INPUT /usr/local/texlive/2013/texmf-dist/fonts/type1/public/amsfonts/cm/cmbx10.pfb
 INPUT /usr/local/texlive/2013/texmf-dist/fonts/type1/public/amsfonts/cm/cmbx12.pfb
 INPUT /usr/local/texlive/2013/texmf-dist/fonts/type1/public/amsfonts/cm/cmr10.pfb
 INPUT /usr/local/texlive/2013/texmf-dist/fonts/type1/public/amsfonts/cm/cmr12.pfb

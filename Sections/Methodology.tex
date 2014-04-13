@@ -7,7 +7,9 @@ Describe the methods and instruments used to solve the problem. Matlab was used 
 
 \noindent The steps from this algorithm are documented in the Matlab code, Section~\ref{sec:main_code}. The pseudo ranges and navigation messages are used to calculate a more precise position of the receiver.  The shift in position is a measure of the time for the signal to travel from satellite to receiver. 
 
-This time traveled by the signal multiplied by the speed of light is the pseudo range.   
+This time traveled by the signal multiplied by the speed of light is the pseudo range.  
+
+All the satellites were used in this calculation in order to get the best possible approximation of the receiver coordinates.  Since we will be using least-squares method to solve for the parameters, the more independent equations we have, the better the approximation will be.   
 
 
 
