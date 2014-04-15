@@ -5,19 +5,21 @@ Present results from all steps you performed in the exercise. Images or tabular 
 The results for the receiver position are given in Table~\ref{tab:receiverCoordinates}.  The results agree completely with the reference material given because both calculations used all of the satellites available.
 \begin{table}[h]
 	\begin{center}
-		\begin{tabular}{llr}
+		\begin{tabular}{lllr}
 		\toprule
-		\multicolumn{2}{c}{epoch 2004 2 2 1 14 0.0} \\
-		\midrule
-			$X = 3104225.071~\text{m}$	& $mX =$$   1.330~\text{m}$		\\
-			$Y = 998384.754~\text{m}$	& $mY =   1.101~\text{m}$		\\
-			$Z = 5463300.077~\text{m}$	& $mZ =   2.566~\text{m}$		\\
-			$T = -0.0005198825~\text{s}$ 	& $mt = 4.7543792389\text{e}-09~\text{s}$		\\
+		\multicolumn{4}{c}{Epoch 2004 2 2 1 14 0.0} \\ 
+		& \multicolumn{1}{c}{Final} & \multicolumn{1}{c}{Approximate} & \multicolumn{1}{r}{$\sigma$} \\
+		\cmidrule(r){2-4} 
+			$X$ & $ 3104225.071~\text{m}$		&$3104219.453$ & $1.330~\text{m}$		\\
+			$Y$ & $ 998384.754~\text{m}$		&$998383.982$  & $1.101~\text{m}$	\\
+			$Z$ & $ 5463300.077~\text{m}$		&$5463290.508$ & $2.566~\text{m}$		\\
+			$T$ & $ -0.0005198825~\text{s}$ 	& 			   & $4.7543792389\text{e}-09~\text{s}$		\\
 		\bottomrule
 		\end{tabular}
 	\end{center}
-	\caption{Coordinates of the receiver after several iterations of steps 11-16 until the convergence condition was met.  They agree completely with SPPResults.}
+	\caption{Coordinates of the receiver after several iterations of steps 11-16 until the convergence condition was met.  They agree completely with SPPResults and are very close to the approximate positions in the observation file.}
 	\label{tab:receiverCoordinates}
 \end{table}
+
 
 % section results (end)
