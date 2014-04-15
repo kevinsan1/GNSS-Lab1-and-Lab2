@@ -1,4 +1,4 @@
-This is pdfTeX, Version 3.1415926-2.5-1.40.14 (TeX Live 2013) (format=.GNSS_Lab1_and_Lab2 2014.4.13)  14 APR 2014 00:02
+This is pdfTeX, Version 3.1415926-2.5-1.40.14 (TeX Live 2013) (format=.GNSS_Lab1_and_Lab2 2014.4.15)  15 APR 2014 16:08
 entering extended mode
  restricted \write18 enabled.
  %&-line parsing enabled.
@@ -108,9 +108,6 @@ Package atveryend Info: Executing hook `AtVeryEndDocument' on input line 65.
 Package atveryend Info: Executing hook `AtEndAfterFileList' on input line 65.
 Package rerunfilecheck Info: File `.GNSS_Lab1_and_Lab2.out' has not changed.
 (rerunfilecheck)             Checksum: C60DACA3D6B8C3B3D803A9F66A764363;797.
-
-LaTeX Warning: Label(s) may have changed. Rerun to get cross-references right.
-
 Package atveryend Info: Empty hook `AtVeryVeryEnd' on input line 65.
  ) 
 Here is how much of TeX's memory you used:
@@ -129,7 +126,7 @@ sr/local/texlive/2013/texmf-dist/fonts/type1/public/amsfonts/cm/cmr12.pfb></usr
 /local/texlive/2013/texmf-dist/fonts/type1/public/amsfonts/cm/cmr17.pfb></usr/l
 ocal/texlive/2013/texmf-dist/fonts/type1/public/amsfonts/cm/cmsy10.pfb></usr/lo
 cal/texlive/2013/texmf-dist/fonts/type1/public/amsfonts/cm/cmtt10.pfb>
-Output written on .GNSS_Lab1_and_Lab2.pdf (8 pages, 122998 bytes).
+Output written on .GNSS_Lab1_and_Lab2.pdf (8 pages, 123214 bytes).
 PDF statistics:
  145 PDF objects out of 1000 (max. 8388607)
  125 compressed objects within 2 object streams
