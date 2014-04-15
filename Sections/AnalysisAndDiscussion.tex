@@ -1,17 +1,19 @@
 \section{Analysis and Discussion} % (fold)
 \label{sec:analysis_and_discussion}
-In this part you should discuss your results by, for example, considering the following questions:
+% In this part you should discuss your results by, for example, considering the following questions:
 \begin{itemize}
 	\item Are the results reasonable? Compare the results with your expectations.
-	Yes the results are reasonable.  The final position of the receiver is very close to the approximate position.
-
-
 	
-	The results are reasonable because the algorithm that we used only works if the approximate position is close to the solution.  The solution we calculated was 
-	\item Can we draw any conclusion/implications from the results?
+	Yes the results are reasonable.  The final position of the receiver is very close to the approximate position and this is shown in Table~\ref{tab:receiverCoordinates}.
+	\item Can we draw any conclusion/implications from the results?  
+	
+	We can conclude that the approximate coordinates are very close to the true receiver position, even though we did not factor in ionospheric and tropospheric effects.
 	\item Are results reliable and accurate?
+	
+	I believe the results are reliable and accurate because the $\sigma$ value is very small for all x,y,z and all 11 satellites were taken into account, so any outliers will be averaged out.
 	\item Would it have been more appropriate to use another method? Does the method need to be further developed?
-	\item Etc.
+	
+	I think it is only necessary to further develop this method if you needed a higher degree of accuracy.  This method could be further developed to take into account the ionospheric and tropospheric effects.  I think it could me more appropriate to use the difference method is best used when you have more satellites and tropospheric and ionospheric effects are cancelled out in the equations.  This means our final solution should be more accurate using the difference method
 \end{itemize}
 
 % section analysis_and_discussion (end)
