@@ -13,44 +13,44 @@ Database file #1: GNSS_Lab1_and_Lab2.bib
 -- See the "IEEEtran_bst_HOWTO.pdf" manual for usage information.
 
 Done.
-You've used 1 entry,
+You've used 2 entries,
             4039 wiz_defined-function locations,
-            816 strings with 7358 characters,
-and the built_in function-call counts, 482 in all, are:
-= -- 34
-> -- 4
-< -- 0
-+ -- 2
-- -- 1
-* -- 31
-:= -- 105
-add.period$ -- 2
-call.type$ -- 1
-change.case$ -- 1
-chr.to.int$ -- 0
-cite$ -- 1
-duplicate$ -- 34
-empty$ -- 32
-format.name$ -- 1
-if$ -- 81
+            824 strings with 7548 characters,
+and the built_in function-call counts, 989 in all, are:
+= -- 68
+> -- 19
+< -- 2
++ -- 7
+- -- 4
+* -- 55
+:= -- 187
+add.period$ -- 4
+call.type$ -- 2
+change.case$ -- 4
+chr.to.int$ -- 6
+cite$ -- 2
+duplicate$ -- 76
+empty$ -- 87
+format.name$ -- 5
+if$ -- 197
 int.to.chr$ -- 0
-int.to.str$ -- 1
-missing$ -- 9
-newline$ -- 26
-num.names$ -- 1
-pop$ -- 19
+int.to.str$ -- 2
+missing$ -- 16
+newline$ -- 29
+num.names$ -- 4
+pop$ -- 40
 preamble$ -- 1
 purify$ -- 0
 quote$ -- 2
-skip$ -- 30
+skip$ -- 65
 stack$ -- 0
-substring$ -- 1
-swap$ -- 22
+substring$ -- 7
+swap$ -- 45
 text.length$ -- 0
 text.prefix$ -- 0
 top$ -- 5
-type$ -- 1
+type$ -- 2
 warning$ -- 0
-while$ -- 1
-width$ -- 2
-write$ -- 31
+while$ -- 4
+width$ -- 3
+write$ -- 39
