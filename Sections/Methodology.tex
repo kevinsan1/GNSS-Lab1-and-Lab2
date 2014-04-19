@@ -37,6 +37,17 @@ but the relativistic correction, $\Delta t_r = Fe\sqrt{A} \sin(E_k)$ was neglect
 	Y^s &=x'_k \sin \Omega_k +y' \cos i \cos \Omega_k \nonumber \\
 	Z^s &= y' \sin i_k  \nonumber
  \end{align}
- Now that the satellite coordinates have been calculated, the satellite clock correction is corrected again to include the relativistic correction, $\Delta t_r$.  Now the approximate distance of the satellite is calculated using equation,
+ Now that the satellite coordinates have been calculated, the satellite clock correction is corrected again to include the relativistic correction, $\Delta t_r$.  Now the approximate distance of the satellite is calculated using the equation,
+ \begin{equation*}
+\rho _{\text{A0}}^s\left(\tilde{t}_A\right) = 
+\sqrt{\left(
+X^s-X_{\text{A0}}+\dot{\Omega}_eY_{\text{A0}}  \text{$\Delta $t}^s
+\right)^2+\left(
+Y^s-Y_{\text{A0}}-\dot{\Omega}_eX_{\text{A0}} \text{$\Delta $t}^s
+\right)^2+\left(
+Z^s-Z_{\text{A0}}
+\right)^2}
+ \end{equation*}
  
+ The calculation of these parameters is done for all satellites we are interested in.  Since we are computing four unknown parameters, the satellite lower limit is also four.  More than four should only increase our accuracy assuming they aren't outliers. The result will be used to get more accurate coordinates for the receiver.  
 % section methodology (end)
