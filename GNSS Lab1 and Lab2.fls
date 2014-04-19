@@ -133,18 +133,20 @@ INPUT Sections/Introduction.tex
 INPUT Sections/Introduction.tex
 INPUT /usr/local/texlive/2013/texmf-dist/fonts/tfm/public/cm/cmr12.tfm
 INPUT /usr/local/texlive/2013/texmf-dist/fonts/tfm/public/cm/cmbx12.tfm
-INPUT Sections/Methodology.tex
-INPUT Sections/Methodology.tex
-INPUT Sections/Results.tex
-INPUT Sections/Results.tex
+INPUT Tables/parameters.tex
+INPUT Tables/parameters.tex
 INPUT /usr/local/texlive/2013/texmf-dist/fonts/tfm/public/cm/cmmi10.tfm
 INPUT /usr/local/texlive/2013/texmf-dist/fonts/tfm/public/cm/cmsy10.tfm
 INPUT /usr/local/texlive/2013/texmf-dist/fonts/tfm/public/cm/cmex10.tfm
-INPUT Sections/AnalysisAndDiscussion.tex
-INPUT Sections/AnalysisAndDiscussion.tex
-INPUT /usr/local/texlive/2013/texmf-dist/tex/latex/base/omscmr.fd
-INPUT /usr/local/texlive/2013/texmf-dist/tex/latex/base/omscmr.fd
+INPUT Sections/Methodology.tex
+INPUT Sections/Methodology.tex
+INPUT Sections/Results.tex
+INPUT Sections/Results.tex
 INPUT /usr/local/texlive/2013/texmf-var/fonts/map/pdftex/updmap/pdftex.map
+INPUT Sections/AnalysisAndDiscussion.tex
+INPUT Sections/AnalysisAndDiscussion.tex
+INPUT /usr/local/texlive/2013/texmf-dist/tex/latex/base/omscmr.fd
+INPUT /usr/local/texlive/2013/texmf-dist/tex/latex/base/omscmr.fd
 INPUT GNSS Lab1 and Lab2.bbl
 INPUT GNSS Lab1 and Lab2.bbl
 INPUT /usr/local/texlive/2013/texmf-dist/fonts/tfm/public/cm/cmti10.tfm
@@ -166,10 +168,15 @@ INPUT ./GNSS Lab1 and Lab2.out
 INPUT ./GNSS Lab1 and Lab2.out
 INPUT /usr/local/texlive/2013/texmf-dist/fonts/type1/public/amsfonts/cm/cmbx10.pfb
 INPUT /usr/local/texlive/2013/texmf-dist/fonts/type1/public/amsfonts/cm/cmbx12.pfb
+INPUT /usr/local/texlive/2013/texmf-dist/fonts/type1/public/amsfonts/cm/cmex10.pfb
 INPUT /usr/local/texlive/2013/texmf-dist/fonts/type1/public/amsfonts/cm/cmmi10.pfb
+INPUT /usr/local/texlive/2013/texmf-dist/fonts/type1/public/amsfonts/cm/cmmi8.pfb
 INPUT /usr/local/texlive/2013/texmf-dist/fonts/type1/public/amsfonts/cm/cmr10.pfb
 INPUT /usr/local/texlive/2013/texmf-dist/fonts/type1/public/amsfonts/cm/cmr12.pfb
 INPUT /usr/local/texlive/2013/texmf-dist/fonts/type1/public/amsfonts/cm/cmr17.pfb
+INPUT /usr/local/texlive/2013/texmf-dist/fonts/type1/public/amsfonts/cm/cmr6.pfb
+INPUT /usr/local/texlive/2013/texmf-dist/fonts/type1/public/amsfonts/cm/cmr8.pfb
 INPUT /usr/local/texlive/2013/texmf-dist/fonts/type1/public/amsfonts/cm/cmsy10.pfb
+INPUT /usr/local/texlive/2013/texmf-dist/fonts/type1/public/amsfonts/cm/cmsy8.pfb
 INPUT /usr/local/texlive/2013/texmf-dist/fonts/type1/public/amsfonts/cm/cmti10.pfb
 INPUT /usr/local/texlive/2013/texmf-dist/fonts/type1/public/amsfonts/cm/cmtt10.pfb

@@ -10,8 +10,33 @@ The steps from this algorithm are documented in the Matlab code, Section~\ref{se
 
 This time traveled by the signal multiplied by the speed of light is the pseudo range.  
 
-All the satellites were used in this calculation in order to get the best possible approximation of the receiver coordinates.  Since we will be using least-squares method to solve for the parameters, the more independent equations we have, the better the approximation will be.   
+All the satellites were used in this calculation in order to get the best possible approximation of the receiver coordinates.  Since we will be using least-squares method to solve for the parameters, the more independent equations we have, the better the approximation will be.  
 
+First, the signal propagation time was calculated using,
+\begin{equation*}
+	\Delta t_A^s = P_A^s(\tilde{t_A})/c
+\end{equation*}
+which was then used to calculate the nominal transmission time,
+\begin{equation*}
+	\tilde{t}^s = \tilde{t_A} - P_A^s(\tilde{t_A})/c
+\end{equation*}
+where $\tilde{t_A}$ is the nominal time of signal reception by the receiver.  For this lab report, $\tilde{t_A}=90840~$seconds, or 2 days, 1 hour, and 14 minutes.  The weeks in the year was omitted because the difference between epoch times was less than a day and therefore would have cancelled out.
 
-
+Next the satellite clock correction, $\delta t_{L1}^s$, was computed using equations,
+\begin{align*}
+	\delta t_{L1}^s &= \Delta t_{SV}-T_{GD} \\
+	\Delta t_{SV} &= a_{f0} + a_{f1}(\tilde{t}^s - t_{oc}) + a_{f2}(\tilde{t}^s - t_{oc})^2 + \Delta t_r
+\end{align*}
+but the relativistic correction, $\Delta t_r = Fe\sqrt{A} \sin(E_k)$ was neglected until the eccentric anomaly and satellite coordinates were computed.  Next, the system time of signal transmission, $t^s$ was calculated using the satellite clock correction. The eccentric anomaly was calculated using Kepler's equation,
+\begin{equation*}
+	E_k = M_k + e \sin(E_k)
+\end{equation*}
+ and the solution was iterated until convergence.  The relativistic correction is now calculated and $t^s$ is corrected in order to compute the satellite coordinates at that time given by the equations,
+ \begin{align}
+ 	X^s &=x'_k \cos \Omega_k -y' \cos i \sin \Omega_k \nonumber \\
+	Y^s &=x'_k \sin \Omega_k +y' \cos i \cos \Omega_k \nonumber \\
+	Z^s &= y' \sin i_k  \nonumber
+ \end{align}
+ Now that the satellite coordinates have been calculated, the satellite clock correction is corrected again to include the relativistic correction, $\Delta t_r$.  Now the approximate distance of the satellite is calculated using equation,
+ 
 % section methodology (end)
